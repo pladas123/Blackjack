@@ -109,7 +109,7 @@ class interface_window():
     def operations(self):
         root = Tk()
 
-        img_dealer = Image.open(self.dealer_draw)
+        img_dealer = Image.open("card_images/" + self.dealer_draw)
         panel_dealer = Label(root)
         img_dealer = ImageTk.PhotoImage(img_dealer.resize((x,y), Image.ANTIALIAS))
         panel_dealer.configure(image = img_dealer)
@@ -130,15 +130,15 @@ class interface_window():
             eval_ = hand_evaluation.hand_eval(players, p, ('0'))
 
             new_images = eval_.hand_summary()
-            new_img0 = Image.open(new_images[0])
+            new_img0 = Image.open("card_images/" + new_images[0])
             new_img0 = ImageTk.PhotoImage(new_img0.resize((x,y), Image.ANTIALIAS))
             panel_0.configure(image = new_img0)
             panel_0.image = new_img0
-            new_img1 = Image.open(new_images[1])
+            new_img1 = Image.open("card_images/" + new_images[1])
             new_img1 = ImageTk.PhotoImage(new_img1.resize((x,y), Image.ANTIALIAS))
             panel_1.configure(image = new_img1)
             panel_1.image = new_img1
-            new_img2 = Image.open("red_joker.png")
+            new_img2 = Image.open("card_images/" + "red_joker.png")
             new_img2 = ImageTk.PhotoImage(new_img2.resize((x,y), Image.ANTIALIAS))
             panel_2.configure(image = new_img2)
             panel_2.image = new_img2
@@ -158,7 +158,7 @@ class interface_window():
             while active == True:
                 action_ = input("hit/stand : ")
                 if action_ == "hit":
-                    new_img2 = Image.open(deal(p))
+                    new_img2 = Image.open("card_images/" + deal(p))
                     new_img2 = ImageTk.PhotoImage(new_img2.resize((x,y), Image.ANTIALIAS))
                     panel_2.configure(image = new_img2)
                     panel_2.image = new_img2
