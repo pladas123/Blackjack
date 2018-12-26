@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d7c41edf-7682-4303-812f-294725fdbc94}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Blackjack.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="10_of_clubs.png" />
+    <Content Include="10_of_diamonds.png" />
+    <Content Include="10_of_hearts.png" />
+    <Content Include="10_of_spades.png" />
+    <Content Include="2_of_clubs.png" />
+    <Content Include="2_of_diamonds.png" />
+    <Content Include="2_of_hearts.png" />
+    <Content Include="2_of_spades.png" />
+    <Content Include="3_of_clubs.png" />
+    <Content Include="3_of_diamonds.png" />
+    <Content Include="3_of_hearts.png" />
+    <Content Include="3_of_spades.png" />
+    <Content Include="4_of_clubs.png" />
+    <Content Include="4_of_diamonds.png" />
+    <Content Include="4_of_hearts.png" />
+    <Content Include="4_of_spades.png" />
+    <Content Include="5_of_clubs.png" />
+    <Content Include="5_of_diamonds.png" />
+    <Content Include="5_of_hearts.png" />
+    <Content Include="5_of_spades.png" />
+    <Content Include="6_of_clubs.png" />
+    <Content Include="6_of_diamonds.png" />
+    <Content Include="6_of_hearts.png" />
+    <Content Include="6_of_spades.png" />
+    <Content Include="7_of_clubs.png" />
+    <Content Include="7_of_diamonds.png" />
+    <Content Include="7_of_hearts.png" />
+    <Content Include="7_of_spades.png" />
+    <Content Include="8_of_clubs.png" />
+    <Content Include="8_of_diamonds.png" />
+    <Content Include="8_of_hearts.png" />
+    <Content Include="8_of_spades.png" />
+    <Content Include="9_of_clubs.png" />
+    <Content Include="9_of_diamonds.png" />
+    <Content Include="9_of_hearts.png" />
+    <Content Include="9_of_spades.png" />
+    <Content Include="ace_of_clubs.png" />
+    <Content Include="ace_of_diamonds.png" />
+    <Content Include="ace_of_hearts.png" />
+    <Content Include="ace_of_spades.png" />
+    <Content Include="ace_of_spades2.png" />
+    <Content Include="black_joker.png" />
+    <Content Include="card_images\10_of_clubs.png" />
+    <Content Include="card_images\10_of_diamonds.png" />
+    <Content Include="card_images\10_of_hearts.png" />
+    <Content Include="card_images\10_of_spades.png" />
+    <Content Include="card_images\2_of_clubs.png" />
+    <Content Include="card_images\2_of_diamonds.png" />
+    <Content Include="card_images\2_of_hearts.png" />
+    <Content Include="card_images\2_of_spades.png" />
+    <Content Include="card_images\3_of_clubs.png" />
+    <Content Include="card_images\3_of_diamonds.png" />
+    <Content Include="card_images\3_of_hearts.png" />
+    <Content Include="card_images\3_of_spades.png" />
+    <Content Include="card_images\4_of_clubs.png" />
+    <Content Include="card_images\4_of_diamonds.png" />
+    <Content Include="card_images\4_of_hearts.png" />
+    <Content Include="card_images\4_of_spades.png" />
+    <Content Include="card_images\5_of_clubs.png" />
+    <Content Include="card_images\5_of_diamonds.png" />
+    <Content Include="card_images\5_of_hearts.png" />
+    <Content Include="card_images\5_of_spades.png" />
+    <Content Include="card_images\6_of_clubs.png" />
+    <Content Include="card_images\6_of_diamonds.png" />
+    <Content Include="card_images\6_of_hearts.png" />
+    <Content Include="card_images\6_of_spades.png" />
+    <Content Include="card_images\7_of_clubs.png" />
+    <Content Include="card_images\7_of_diamonds.png" />
+    <Content Include="card_images\7_of_hearts.png" />
+    <Content Include="card_images\7_of_spades.png" />
+    <Content Include="card_images\8_of_clubs.png" />
+    <Content Include="card_images\8_of_diamonds.png" />
+    <Content Include="card_images\8_of_hearts.png" />
+    <Content Include="card_images\8_of_spades.png" />
+    <Content Include="card_images\9_of_clubs.png" />
+    <Content Include="card_images\9_of_diamonds.png" />
+    <Content Include="card_images\9_of_hearts.png" />
+    <Content Include="card_images\9_of_spades.png" />
+    <Content Include="card_images\ace_of_clubs.png" />
+    <Content Include="card_images\ace_of_diamonds.png" />
+    <Content Include="card_images\ace_of_hearts.png" />
+    <Content Include="card_images\ace_of_spades.png" />
+    <Content Include="card_images\ace_of_spades2.png" />
+    <Content Include="card_images\black_joker.png" />
+    <Content Include="card_images\jack_of_clubs.png" />
+    <Content Include="card_images\jack_of_clubs2.png" />
+    <Content Include="card_images\jack_of_diamonds.png" />
+    <Content Include="card_images\jack_of_diamonds2.png" />
+    <Content Include="card_images\jack_of_hearts.png" />
+    <Content Include="card_images\jack_of_hearts2.png" />
+    <Content Include="card_images\jack_of_spades.png" />
+    <Content Include="card_images\jack_of_spades2.png" />
+    <Content Include="card_images\king_of_clubs.png" />
+    <Content Include="card_images\king_of_clubs2.png" />
+    <Content Include="card_images\king_of_diamonds.png" />
+    <Content Include="card_images\king_of_diamonds2.png" />
+    <Content Include="card_images\king_of_hearts.png" />
+    <Content Include="card_images\king_of_hearts2.png" />
+    <Content Include="card_images\king_of_spades.png" />
+    <Content Include="card_images\king_of_spades2.png" />
+    <Content Include="card_images\queen_of_clubs.png" />
+    <Content Include="card_images\queen_of_clubs2.png" />
+    <Content Include="card_images\queen_of_diamonds.png" />
+    <Content Include="card_images\queen_of_diamonds2.png" />
+    <Content Include="card_images\queen_of_hearts.png" />
+    <Content Include="card_images\queen_of_hearts2.png" />
+    <Content Include="card_images\queen_of_spades.png" />
+    <Content Include="card_images\queen_of_spades2.png" />
+    <Content Include="card_images\red_joker.png" />
+    <Content Include="jack_of_clubs.png" />
+    <Content Include="jack_of_clubs2.png" />
+    <Content Include="jack_of_diamonds.png" />
+    <Content Include="jack_of_diamonds2.png" />
+    <Content Include="jack_of_hearts.png" />
+    <Content Include="jack_of_hearts2.png" />
+    <Content Include="jack_of_spades.png" />
+    <Content Include="jack_of_spades2.png" />
+    <Content Include="king_of_clubs.png" />
+    <Content Include="king_of_clubs2.png" />
+    <Content Include="king_of_diamonds.png" />
+    <Content Include="king_of_diamonds2.png" />
+    <Content Include="king_of_hearts.png" />
+    <Content Include="king_of_hearts2.png" />
+    <Content Include="king_of_spades.png" />
+    <Content Include="king_of_spades2.png" />
+    <Content Include="queen_of_clubs.png" />
+    <Content Include="queen_of_clubs2.png" />
+    <Content Include="queen_of_diamonds.png" />
+    <Content Include="queen_of_diamonds2.png" />
+    <Content Include="queen_of_hearts.png" />
+    <Content Include="queen_of_hearts2.png" />
+    <Content Include="queen_of_spades.png" />
+    <Content Include="queen_of_spades2.png" />
+    <Content Include="red_joker.png" />
+    <Content Include="strategy.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blackjack.py" />
+    <Compile Include="Blackjack_ML.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="deck_generator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hand_evaluation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bj.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="deck_generator_ML.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="card_images" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
